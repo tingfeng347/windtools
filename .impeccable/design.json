@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T06:28:07.736559+00:00",
+  "title": "Design System: windtools",
+  "extensions": {
+    "colorMeta": {
+      "muted": {
+        "role": "neutral",
+        "displayName": "灰蓝辅助文字",
+        "tonalRamp": [
+          "oklch(15.00% 0.02333 239.57)",
+          "oklch(26.43% 0.02333 239.57)",
+          "oklch(37.86% 0.02333 239.57)",
+          "oklch(49.29% 0.02333 239.57)",
+          "oklch(60.71% 0.02333 239.57)",
+          "oklch(72.14% 0.02333 239.57)",
+          "oklch(83.57% 0.02333 239.57)",
+          "oklch(95.00% 0.02333 239.57)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "青色焦点",
+        "tonalRamp": [
+          "oklch(15.00% 0.07855 210.36)",
+          "oklch(26.43% 0.07855 210.36)",
+          "oklch(37.86% 0.07855 210.36)",
+          "oklch(49.29% 0.07855 210.36)",
+          "oklch(60.71% 0.07855 210.36)",
+          "oklch(72.14% 0.07855 210.36)",
+          "oklch(83.57% 0.07855 210.36)",
+          "oklch(95.00% 0.07855 210.36)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "琥珀提醒",
+        "tonalRamp": [
+          "oklch(15.00% 0.08315 87.09)",
+          "oklch(26.43% 0.08315 87.09)",
+          "oklch(37.86% 0.08315 87.09)",
+          "oklch(49.29% 0.08315 87.09)",
+          "oklch(60.71% 0.08315 87.09)",
+          "oklch(72.14% 0.08315 87.09)",
+          "oklch(83.57% 0.08315 87.09)",
+          "oklch(95.00% 0.08315 87.09)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "柔红错误",
+        "tonalRamp": [
+          "oklch(15.00% 0.10886 20.03)",
+          "oklch(26.43% 0.10886 20.03)",
+          "oklch(37.86% 0.10886 20.03)",
+          "oklch(49.29% 0.10886 20.03)",
+          "oklch(60.71% 0.10886 20.03)",
+          "oklch(72.14% 0.10886 20.03)",
+          "oklch(83.57% 0.10886 20.03)",
+          "oklch(95.00% 0.10886 20.03)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "selection": {
+        "role": "primary",
+        "displayName": "深青选中底",
+        "tonalRamp": [
+          "oklch(15.00% 0.03314 228.55)",
+          "oklch(26.43% 0.03314 228.55)",
+          "oklch(37.86% 0.03314 228.55)",
+          "oklch(49.29% 0.03314 228.55)",
+          "oklch(60.71% 0.03314 228.55)",
+          "oklch(72.14% 0.03314 228.55)",
+          "oklch(83.57% 0.03314 228.55)",
+          "oklch(95.00% 0.03314 228.55)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "meadow-sky": {
+        "role": "tertiary",
+        "displayName": "夜蓝天空",
+        "tonalRamp": [
+          "oklch(15.00% 0.03971 256.73)",
+          "oklch(26.43% 0.03971 256.73)",
+          "oklch(37.86% 0.03971 256.73)",
+          "oklch(49.29% 0.03971 256.73)",
+          "oklch(60.71% 0.03971 256.73)",
+          "oklch(72.14% 0.03971 256.73)",
+          "oklch(83.57% 0.03971 256.73)",
+          "oklch(95.00% 0.03971 256.73)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "meadow-far": {
+        "role": "tertiary",
+        "displayName": "灰蓝远山",
+        "tonalRamp": [
+          "oklch(15.00% 0.04010 235.65)",
+          "oklch(26.43% 0.04010 235.65)",
+          "oklch(37.86% 0.04010 235.65)",
+          "oklch(49.29% 0.04010 235.65)",
+          "oklch(60.71% 0.04010 235.65)",
+          "oklch(72.14% 0.04010 235.65)",
+          "oklch(83.57% 0.04010 235.65)",
+          "oklch(95.00% 0.04010 235.65)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "meadow-near": {
+        "role": "tertiary",
+        "displayName": "青绿近山",
+        "tonalRamp": [
+          "oklch(15.00% 0.04271 190.94)",
+          "oklch(26.43% 0.04271 190.94)",
+          "oklch(37.86% 0.04271 190.94)",
+          "oklch(49.29% 0.04271 190.94)",
+          "oklch(60.71% 0.04271 190.94)",
+          "oklch(72.14% 0.04271 190.94)",
+          "oklch(83.57% 0.04271 190.94)",
+          "oklch(95.00% 0.04271 190.94)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "meadow-ground": {
+        "role": "tertiary",
+        "displayName": "深绿地面",
+        "tonalRamp": [
+          "oklch(15.00% 0.03583 174.46)",
+          "oklch(26.43% 0.03583 174.46)",
+          "oklch(37.86% 0.03583 174.46)",
+          "oklch(49.29% 0.03583 174.46)",
+          "oklch(60.71% 0.03583 174.46)",
+          "oklch(72.14% 0.03583 174.46)",
+          "oklch(83.57% 0.03583 174.46)",
+          "oklch(95.00% 0.03583 174.46)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      },
+      "meadow-leaf": {
+        "role": "tertiary",
+        "displayName": "金色飘叶",
+        "tonalRamp": [
+          "oklch(15.00% 0.10176 87.91)",
+          "oklch(26.43% 0.10176 87.91)",
+          "oklch(37.86% 0.10176 87.91)",
+          "oklch(49.29% 0.10176 87.91)",
+          "oklch(60.71% 0.10176 87.91)",
+          "oklch(72.14% 0.10176 87.91)",
+          "oklch(83.57% 0.10176 87.91)",
+          "oklch(95.00% 0.10176 87.91)"
+        ],
+        "tonalRampPurpose": "Synthesized panel swatches; not application palette steps."
+      }
+    },
+    "typographyMeta": {
+      "title": {
+        "displayName": "终端标题",
+        "purpose": "Same terminal cell size, BOLD modifier for titles and selected rows.",
+        "nativeModifier": "BOLD"
+      },
+      "body": {
+        "displayName": "终端正文",
+        "purpose": "Terminal-configured monospace font, default modifier."
+      },
+      "label": {
+        "displayName": "终端辅助文字",
+        "purpose": "Same cell scale; color and spacing establish hierarchy."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "meadow-frame-target",
+        "value": "30 FPS default; CLI accepts 1–60",
+        "purpose": "Animate only the active, unpaused meadow.",
+        "source": "src/main.rs:Cli::fps; run"
+      },
+      {
+        "name": "gust-decay",
+        "value": "exp(-(time - gust) * 0.9), capped at 1, scaled by 2.4",
+        "purpose": "Temporary extra wind impulse; pause freezes scene time.",
+        "source": "src/meadow.rs:Meadow::wind"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "minimum-general",
+        "value": "40 columns × 14 rows",
+        "source": "src/ui.rs:render"
+      },
+      {
+        "name": "minimum-editor",
+        "value": "40 columns × 20 rows",
+        "source": "src/ui.rs:render"
+      },
+      {
+        "name": "todo-detail-pane",
+        "value": "100 columns",
+        "purpose": "64% list / 36% detail at or above threshold.",
+        "source": "src/ui.rs:todo"
+      },
+      {
+        "name": "todo-footer-short",
+        "value": "60 columns",
+        "source": "src/ui.rs:todo"
+      },
+      {
+        "name": "todo-footer-medium",
+        "value": "78 columns",
+        "source": "src/ui.rs:todo"
+      },
+      {
+        "name": "editor-meadow-footer-short",
+        "value": "70 columns",
+        "source": "src/ui.rs:editor; meadow"
+      }
+    ],
+    "terminal": {
+      "platform": "Native Rust Ratatui + Crossterm TUI; not a web application.",
+      "defaultForeground": "Color::Reset",
+      "defaultBackground": "Color::Reset",
+      "font": "User terminal configuration; no program-selected face, size, line height or letter spacing.",
+      "spacingUnit": "columns and rows; frontmatter spacing strings are terminal dimensions, not CSS lengths.",
+      "modifiers": {
+        "selectedColor": "BOLD",
+        "selectedMono": "REVERSED",
+        "title": "BOLD"
+      },
+      "ansiFallback": {
+        "muted": "Gray",
+        "accent": "Cyan",
+        "warning": "Yellow",
+        "error": "Red",
+        "selection": "Blue",
+        "meadow-sky": "Black",
+        "meadow-far": "DarkGray",
+        "meadow-near": "Blue",
+        "meadow-ground": "Black",
+        "grass": "Green",
+        "meadow-leaf": "Yellow"
+      },
+      "mono": "Color::Reset for all explicit colors; selected rows reverse; mountains use sparse dots.",
+      "glyphs": {
+        "ridge": {
+          "unicode": "▄",
+          "ascii": "_"
+        },
+        "grass": {
+          "unicode": [
+            "│",
+            "╱",
+            "╲"
+          ],
+          "ascii": [
+            "|",
+            "/",
+            "\\"
+          ]
+        },
+        "leaf": {
+          "unicode": "·",
+          "ascii": "'"
+        },
+        "selected": ">",
+        "open": "[ ]",
+        "completed": "[x]"
+      },
+      "grassColor": {
+        "source": "src/meadow.rs:MeadowView::render",
+        "formula": "Rgb((78 + depth * 45) as u8, (111 + depth * 53) as u8, (77 + depth * 34) as u8)",
+        "depth": "blade.y / scene.height",
+        "purpose": "Depth-dependent procedural color; not a discrete primitive scale."
+      },
+      "layout": {
+        "menuWidth": "min(columns - 8, 76)",
+        "editorWidth": "min(columns - 6, 90)",
+        "overlayWidth": "min(columns - 4, 80)",
+        "overlayHeight": "min(rows - 2, 24 for help/error; otherwise 15)",
+        "meadowHeight": "rows - 3",
+        "taskHeight": "2 rows",
+        "fieldHeight": "3 rows",
+        "detailPageInset": "2 columns"
+      },
+      "sceneBounds": {
+        "grassBlades": "min(width * height / 5, 1800)",
+        "leaves": "clamp(width / 5, 3, 40)"
+      },
+      "panelPreview": "HTML/CSS snippets only translate native text and color for sidecar panels. They add no web implementation, fonts, sizes, radii, shadows or hover semantics; inherited panel defaults are not terminal tokens."
+    },
+    "evidence": {
+      "sources": [
+        "src/ui.rs",
+        "src/ui/details.rs",
+        "src/ui/overlay.rs",
+        "src/meadow.rs",
+        "src/main.rs"
+      ],
+      "direction": [
+        "PRODUCT.md",
+        "docs/surface-brief.md",
+        "docs/spec-v1.md"
+      ],
+      "captures": [
+        ".impeccable/review/menu.png",
+        ".impeccable/review/todo-wide.png",
+        ".impeccable/review/todo-narrow.png",
+        ".impeccable/review/editor.png",
+        ".impeccable/review/meadow-wide.png",
+        ".impeccable/review/meadow-narrow.png",
+        ".impeccable/review/meadow-large.png"
+      ],
+      "captureMethod": "Ratatui TestBackend cell-grid JSON rendered to QA PNG; not native emulator screenshots. Reset colors are visualization substitutions, excluded from primitive tokens.",
+      "review": ".impeccable/review/fix-verdict.md"
+    }
+  },
+  "components": [
+    {
+      "name": "选中事项",
+      "kind": "custom",
+      "refersTo": "selected-row",
+      "description": "Menu/task row selected style; completion and selection markers remain explicit.",
+      "html": "<pre class=\"ds-selected-row\" tabindex=\"0\">&gt; [ ] 提交材料</pre>",
+      "css": ".ds-selected-row { font-family: monospace; white-space: pre; margin: 0; color: #7BC8D6; background-color: #1E343E; font-weight: bold; }",
+      "native": {
+        "source": "src/ui.rs:Theme::selected; todo",
+        "modifiers": [
+          "BOLD",
+          "mono: REVERSED"
+        ],
+        "interaction": "Keyboard; no native hover state."
+      }
+    },
+    {
+      "name": "当前筛选",
+      "kind": "nav",
+      "refersTo": "active-filter",
+      "description": "Two spaces on either side of active filter text.",
+      "html": "<pre class=\"ds-active-filter\" tabindex=\"0\">  未完成  </pre>",
+      "css": ".ds-active-filter { font-family: monospace; white-space: pre; margin: 0; color: #7BC8D6; background-color: #1E343E; font-weight: bold; }",
+      "native": {
+        "source": "src/ui.rs:todo",
+        "modifiers": [
+          "BOLD",
+          "mono: REVERSED"
+        ],
+        "interaction": "Keyboard; no native hover state."
+      }
+    },
+    {
+      "name": "非选中筛选",
+      "kind": "nav",
+      "refersTo": "inactive-filter",
+      "description": "Quiet inactive filter label.",
+      "html": "<pre class=\"ds-inactive-filter\" tabindex=\"0\">  全部  </pre>",
+      "css": ".ds-inactive-filter { font-family: monospace; white-space: pre; margin: 0; color: #97A6B1; }",
+      "native": {
+        "source": "src/ui.rs:todo",
+        "modifiers": [],
+        "interaction": "Keyboard; no native hover state."
+      }
+    },
+    {
+      "name": "焦点字段",
+      "kind": "input",
+      "refersTo": "field-focused",
+      "description": "Native content inherits terminal foreground; cyan applies to the bottom border, not input text.",
+      "html": "<pre class=\"ds-field-focused\" tabindex=\"0\">标题 *\n提交材料\n<span class=\"ds-field-rule\">────────────────</span></pre>",
+      "css": ".ds-field-focused { font-family: monospace; white-space: pre; margin: 0;  } .ds-field-rule { color: #7BC8D6; }",
+      "native": {
+        "source": "src/ui.rs:field",
+        "modifiers": [],
+        "interaction": "Keyboard; no native hover state.",
+        "height": "3 rows",
+        "border": "BOTTOM",
+        "focusedBorderToken": "accent",
+        "unfocusedBorderToken": "muted",
+        "cursor": "Real terminal cursor at grapheme-aware input viewport position."
+      }
+    },
+    {
+      "name": "对话框",
+      "kind": "custom",
+      "refersTo": "overlay",
+      "description": "Character border, cyan title, ordinary body and amber key instruction.",
+      "html": "<pre class=\"ds-overlay\" tabindex=\"0\"><span class=\"ds-overlay-edge\">┌────────────────────────┐\n│ 键盘操作               │</span>\n│ ↑↓ 或 j/k 移动         │\n│ <span class=\"ds-overlay-keys\">Enter/Esc 关闭</span>        │\n<span class=\"ds-overlay-edge\">└────────────────────────┘</span></pre>",
+      "css": ".ds-overlay { font-family: monospace; white-space: pre; margin: 0;  } .ds-overlay-edge { color: #7BC8D6; } .ds-overlay-keys { color: #D8BE82; }",
+      "native": {
+        "source": "src/ui/overlay.rs:render",
+        "modifiers": [],
+        "interaction": "Keyboard; no native hover state.",
+        "behavior": "Clear dialog rectangle, then draw border; body scrolls independently of key instruction."
+      }
+    },
+    {
+      "name": "提醒警示",
+      "kind": "custom",
+      "refersTo": "reminder-warning",
+      "description": "Missed/failed list reminders retain their status text.",
+      "html": "<pre class=\"ds-reminder-warning\" tabindex=\"0\">提醒已错过</pre>",
+      "css": ".ds-reminder-warning { font-family: monospace; white-space: pre; margin: 0; color: #D8BE82; }",
+      "native": {
+        "source": "src/ui.rs:todo; reminder_text",
+        "modifiers": [],
+        "interaction": "Keyboard; no native hover state."
+      }
+    },
+    {
+      "name": "错误状态",
+      "kind": "custom",
+      "refersTo": "status-error",
+      "description": "Error uses text plus red, with F2 access to the full reason.",
+      "html": "<pre class=\"ds-status-error\" tabindex=\"0\">保存失败；F2 查看完整原因</pre>",
+      "css": ".ds-status-error { font-family: monospace; white-space: pre; margin: 0; color: #E58C8C; }",
+      "native": {
+        "source": "src/ui.rs:editor; footer",
+        "modifiers": [],
+        "interaction": "Keyboard; no native hover state."
+      }
+    },
+    {
+      "name": "原野字符材料",
+      "kind": "custom",
+      "refersTo": "meadow",
+      "description": "Static material swatch only; actual native scene is generated and animated.",
+      "html": "<pre class=\"ds-meadow\" tabindex=\"0\"><span class=\"ds-meadow-far\">▄▄▄▄▄▄</span>\n<span class=\"ds-meadow-near\">  ▄▄▄▄▄▄▄</span>\n<span class=\"ds-meadow-leaf\">·</span>\n│╱│╲│╱│</pre>",
+      "css": ".ds-meadow { font-family: monospace; white-space: pre; margin: 0; background-color: #101D2F; } .ds-meadow-far { color: #2C4554; } .ds-meadow-near { color: #244947; } .ds-meadow-leaf { color: #DBBC70; }",
+      "native": {
+        "source": "src/meadow.rs:MeadowView::render",
+        "modifiers": [],
+        "interaction": "Keyboard; no native hover state.",
+        "previewLimit": "The grass line inherits panel foreground; native grass RGB is depth-calculated. This is not a rendered scene or new palette token."
+      }
+    }
+  ],
+  "narrative": {
+    "northStar": "选择一件事，或看一阵风。",
+    "overview": "windtools 的视觉材料是终端单元格、普通等宽字体和键盘反馈。待办使用紧凑的文字层级，让事项、提醒和保存结果容易阅读；原野用整幅天空、山脊、草海和飘叶表达风的变化。统一菜单连接这两种已确认的体验。\n\n待办继承用户的终端背景与正文前景。原野在景观区域显式绘制分层背景。两者共用青色焦点和清楚的文字状态，但景观装饰只属于原野。所有层级都通过字重、留白、选中标记或字符形状表达，不依赖专用字体。",
+    "keyCharacteristics": [
+      "终端单元格是布局与绘制单位。",
+      "待办安静、文字优先，原野完整、可互动。",
+      "颜色与可读状态文字共同表达反馈。",
+      "Unicode、ASCII 和单色模式共享任务结构。"
+    ],
+    "rules": [
+      {
+        "name": "The Redundant State Rule",
+        "body": "选中、完成、提醒和错误必须保留文字或字符标记；单色模式不能丢失状态含义。",
+        "section": "colors"
+      },
+      {
+        "name": "The Terminal Type Rule",
+        "body": "用真实的终端加粗、字符标记和空行形成层级，不引入网页字号、展示字体或图标字体。",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do 用终端列宽与 grapheme 处理输入、截断和换行。",
+      "Do 保留完成框、选中标记、暂停文字和完整提醒状态。",
+      "Do 在窄窗口保留主任务，通过滚动或独立详情阅读完整内容。",
+      "Do 让表单焦点、保存失败和会话提醒状态可见。",
+      "Do 将原野的角色形状同步维护 Unicode、ASCII 和单色版本。"
+    ],
+    "donts": [
+      "Don't 把 QA 捕获的终端默认颜色替代值写成应用的前景或背景令牌。",
+      "Don't 把景观装饰带入事务清单。",
+      "Don't 用专用字体、网页字号或图标字体替代终端字符层级。",
+      "Don't 让状态只靠颜色区分。",
+      "Don't 将单元格 QA 渲染声明为真实终端模拟器或跨平台验收证据。"
+    ]
+  }
+}
